@@ -1,0 +1,20 @@
+task 1
+a = int(input("Enter number: "))
+for n in range(1, a+1):
+  print(n)
+  
+  task 2
+  a = int(input("Enter number: "))
+for a in range(1, a+1):
+  print((a), end = "" )
+  
+  task 3
+  a = int(input("Enter number:  "))
+for n in range(1, 13):
+  print("{} * {} = {}" .format(a, n, a*n))
+  
+  task 6
+  a = int(input("Enter number: "))
+for i in range(1, 51):
+  if(i % a ==0):
+    print(i,end = " ")
