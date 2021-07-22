@@ -1,0 +1,7 @@
+task 4
+
+sum = 1
+n = int(input("Enter number: "))
+while sum <= n :
+  print(sum, end = "")
+  sum += 1
