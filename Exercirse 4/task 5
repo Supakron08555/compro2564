@@ -1,0 +1,7 @@
+task 5
+
+num = 1
+n = int(input("Enter number: "))
+while num <= 12 :
+ print("{} * {} = {}".format(n, num, n*num))
+ num += 1
