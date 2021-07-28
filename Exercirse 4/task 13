@@ -1,0 +1,25 @@
+task 13
+n = True
+user = input("Enter username: ")
+pas = int(input("Enter pasword: "))
+while n == True:
+   if user == "admin" and pas == 1234 :
+     newuser = input("Enter your new username: ")
+     newpas = int(input("Enter your new password: "))
+     print("Your new username: {}".format(newuser))
+     print("Your new password: {}".format(newpas))      
+     break
+   elif user != "admin" and pas != 1234:
+     print("You username and password is wrong ")
+     user = input("Enter username: ")
+     pas = int(input("Enter pasword: "))   
+   elif user != "admin" and pas == 1234:
+     print("You username is wrong")
+     user = input("Enter username: ")
+     pas = int(input("Enter pasword: "))
+   elif pas != 1234 and user == "admin":
+     print("You password is wrong")
+     user = input("Enter username: ")
+     pas = int(input("Enter pasword: "))
+     pas += 1
+   
