@@ -1,0 +1,4 @@
+#20
+sam_dict = {'a':500, 'b':5874, 'c': 560,'d':400, 'e':5874, 'f': 20}   
+highnum = sorted(sam_dict ,key = sam_dict.get, reverse = True)[: 3]
+print(highnum)
