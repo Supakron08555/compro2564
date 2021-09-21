@@ -1,0 +1,5 @@
+#12
+SampleDict = {0: 10, 1: 20}
+SampleDict2 = {2: 30}
+SampleDict.update(SampleDict2)
+print(SampleDict)
