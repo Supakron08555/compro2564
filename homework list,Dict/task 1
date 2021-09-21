@@ -1,0 +1,11 @@
+
+#1
+Keys = ['Ten', 'Twenty', 'Thirty']
+Values = [10, 20, 30]
+dict1 = {}
+
+for i in range(len(Keys)):
+  dict1[Keys[i]] = Values[i
+  
+  #1
+print(dict1)
