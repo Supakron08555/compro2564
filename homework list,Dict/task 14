@@ -1,0 +1,9 @@
+#14
+dic = {'x': 10, 'y': 20, 'z': 30}
+dic1 = []
+dic1 = list(dic.keys())
+for key in dic:
+    print
+print(dic1[0] ," -> ",dic['x'])
+print(dic1[1] ," -> ",dic['y'])
+print(dic1[2] ," -> ",dic['z'])
