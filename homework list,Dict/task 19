@@ -1,0 +1,7 @@
+#19
+data = ('w3resource')
+Dict = {}
+
+for i in data :
+    Dict[i] = Dict.get(i, 0) + 1
+print(Dict)
