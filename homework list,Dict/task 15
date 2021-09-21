@@ -1,0 +1,12 @@
+#15
+num = {}
+Keys = []
+Values = []
+for i in range(1, 6):
+    Values.insert(i, i*i)
+    Keys.insert(i, i)
+    
+for j in range(0, 5):
+    num[Keys[j]] = Values[j]
+    
+print(num)
