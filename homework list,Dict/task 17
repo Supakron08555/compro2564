@@ -1,0 +1,12 @@
+#17
+Sample_data = {'1':['a','b'], '2':['c','d']}
+word = []
+word.insert(0, Sample_data['1'][0])
+word.insert(1, Sample_data['1'][1])
+word.insert(2, Sample_data['2'][0])
+word.insert(3, Sample_data['2'][1])    
+    
+for i in range(0, 2):
+    for j in range(0, 2):
+        print(word[i],word[j+2])
+
