@@ -1,0 +1,9 @@
+#8
+sampleDict = {
+    'physic': 82,
+    'Math': 65,
+    'history':75
+}
+for i in sampleDict:
+  if sampleDict[i] == min(sampleDict.values()) :
+    print(i)
