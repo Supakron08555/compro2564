@@ -1,0 +1,12 @@
+#4
+sampleDict = {
+    "name": "Kelly" ,
+    "age" :25 ,
+    "salary" : 8000 ,
+    "city" : "New york"
+
+}
+Dictpop1 = sampleDict.pop("name")
+Dictpop2 = sampleDict.pop('salary')
+Dict1 = {"name" : Dictpop1 , "salary" : Dictpop2}
+print(Dict1)
